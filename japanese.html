@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>omegaDX - マーケティングとデジタルトランスフォーメーション</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">読み込み中...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">omega<span class="text-dark">.</span>DX</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">ホーム</a>
+                        <a href="#about-us" class="nav-item nav-link">私たちについて</a>
+                        <a href="#service" class="nav-item nav-link">サービス</a>
+                        <a href="#project" class="nav-item nav-link">プロジェクト</a>
+                        <a href="#contact" class="nav-item nav-link">お問い合わせ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">言語</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="index.html" class="dropdown-item">ベトナム語</a>
+                                <a href="english.html" class="dropdown-item">英語</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <button type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">omegaDX</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">デジタルトランスフォーメーションとAI</h1>
+                    <p class="text-white mb-4 animated slideInRight">業務プロセス、顧客サービスのデジタル化/自動化により、時間を節約し、人材を削減し、ビジネスの効率を向上させ、管理プロセスを最大限に改善し、利益を最適化します。</p>
+                    <p class="text-white mb-4 animated slideInRight">製品のマーケティング、実際のニーズに応じたタイムリーなユーザーへのアプローチ。</p>
+                    <a href="#contact" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">お問い合わせ</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="検索キーワードを入力">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about-us">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/about-img.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">私たちについて</div>
+                    <h1 class="mb-4">デジタルトランスフォーメーションのコンサルティングと実施</h1>
+                    <p class="mb-4">私たちは、あなたのビジネスをテクノロジーによってより柔軟にし、AIによってより賢くする使命を持っています。高度なAIソリューションで新しい可能性を探求し、ビジネスのプロセスを自動化し、データを深く分析し、より賢い意思決定を行います。あなたのデジタルトランスフォーメーションの旅を共にします。</p>
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-4"></i>プロフェッショナルチーム</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-4"></i>24/7サポート</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-4"></i>手頃な価格</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-outline-primary btn-square me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5" id="service">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">サービス</div>
+                    <h1 class="mb-4">あなたのビジネスを支える優れたデジタルトランスフォーメーションとAIソリューション</h1>
+                    <p class="mb-4">最適なAIとデジタルトランスフォーメーションのソリューションを提供し、ビジネスの効率を向上させ、コストを削減し、競争優位を確保します。</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">アプリケーション、ソフトウェア、ウェブサイトの開発</h5>
+                                        <p>ソフトウェア、モバイルアプリ、ウェブアプリ、ウェブサイト... 人事管理、製品管理、顧客管理システム...</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">オンラインマーケティング</h5>
+                                        <p>適切なオンラインマーケティングキャンペーンを分析し、実施します。SEO、SEM、コンテンツマーケティング、ソーシャルメディアマーケティング、メールマーケティング、アフィリエイトマーケティング、インフルエンサーマーケティング、ビデオマーケティング、ディスプレイ広告、オンラインPR、モバイルマーケティング、データ分析（ウェブアナリティクス）。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">ロボティックプロセスオートメーション（RPA）</h5>
+                                        <p>データ入力、請求書処理、メール管理などの業務プロセスで繰り返し行われるタスクを実行するための自動化ソフトウェア。</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">データ分析</h5>
+                                        <p>データを処理、検証、解釈して有用な情報を引き出し、意思決定を支援し、特定の問題を解決します。これは、ビジネス、マーケティング、データサイエンス、医療、研究などの多くの分野で重要な部分です。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">チームメンバー</div>
+                    <h1 class="mb-4">経験豊富なチーム</h1>
+                    <p class="mb-4">テクノロジーにますます依存する世界では、私たちのITチームは、テクノロジーシステムを維持する重要な役割を果たすだけでなく、企業の成長の各ステップで革新と改善を推進する戦略的パートナーでもあります。</p>
+
+                    <p class="mb-4">豊富な経験と確かな専門知識を持つ私たちのITチームは、テクノロジーシステムが常に安定して運用され、安全で、会社のすべての活動をサポートできるようにします。管理ソフトウェアの導入から業務プロセスの最適化、先進的なテクノロジーソリューションの開発まで、私たちは会社の各部門が効率的かつ調和して機能するために必要なツールを提供することを約束します。</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-1.jpg" alt="">
+                                        <h5 class="mb-0">タン・ゴック・クアン</h5>
+                                        <small>創設者兼CEO</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-2.jpg" alt="">
+                                        <h5 class="mb-0">ホアン・ミン・タン</h5>
+                                        <small>COO</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-3.jpg" alt="">
+                                        <h5 class="mb-0">グエン・ビッチ・トラム</h5>
+                                        <small>デザイナー</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-4.jpg" alt="">
+                                        <h5 class="mb-0">フイン・ゴック・アイン</h5>
+                                        <small>プロジェクトマネージャー</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid bg-primary py-5" id="contact">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">お問い合わせ</div>
+                <h1 class="text-white mb-4">私たちに連絡してください</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <p class="text-center text-white mb-4">私たちはできるだけ早くあなたの質問にお答えします！</p>
+                    <div class="wow fadeIn" data-wow-delay="0.3s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="あなたの名前">
+                                        <label for="name">あなたの名前</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="メール">
+                                        <label for="email">メール</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="件名">
+                                        <label for="subject">件名</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="メッセージ" id="message" style="height: 150px"></textarea>
+                                        <label for="message">メッセージ</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight" type="submit">送信</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">omega<span class="text-primary">.</span>DX</h1>
+                    </a>
+                    <p class="mb-0">今日の変革、明日のリーダー。今すぐビジネスを飛躍させましょう！</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">連絡先</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>343 Nguyễn Hữu Thọ - ダナン市</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>0905.47.2500</p>
+                    <p><i class="fa fa-envelope me-3"></i>omegadx.net@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">ナビゲーション</h5>
+                    <a href="index.html" class="nav-item nav-link active">ホーム</a>
+                    <a href="#about-us" class="nav-item nav-link">私たちについて</a>
+                    <a href="#service" class="nav-item nav-link">サービス</a>
+                    <a href="#project" class="nav-item nav-link">プロジェクト</a>
+                    <a href="#contact" class="nav-item nav-link">お問い合わせ</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">サービス</h5>
+                    <a class="btn btn-link" href="#service">アプリケーション、ソフトウェア、ウェブサイトの開発</a>
+                    <a class="btn btn-link" href="#service">ロボティックプロセスオートメーション（RPA）</a>
+                    <a class="btn btn-link" href="#service">オンラインマーケティング</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <a class="border-bottom" href="#">www.omegadx.net</a>
+                        designed by <a class="border-bottom" href="/">omegaDX</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
